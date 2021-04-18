@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Task2.MainActivity">
+
+
+    <TextView
+        android:id="@+id/p1Score"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="player1:0"
+        />
+
+    <TextView
+        android:id="@+id/p2Score"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="player2: 0" />
+
+    <TextView
+        android:id="@+id/tvTurn"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="Turn:" />
+
+    <TextView
+        android:id="@+id/numberofTurns"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="NumberofTurns:" />
+
+    <TextView
+        android:id="@+id/sosMatches"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="sosMatches:" />
+    <TextView
+        android:id="@+id/NumberofO"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="NumberofO:" />
+
+    <TextView
+        android:id="@+id/NumberofS"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="NumberofS:" />
+
+
+
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Press here when done selecting" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="422dp"
+        android:rowCount="5"
+        android:columnCount="5"
+        android:layout_height="545dp">
+
+    </GridLayout>
+
+</LinearLayout>
